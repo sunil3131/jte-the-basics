@@ -6,11 +6,11 @@ pipeline {
   parameters {
         string(name: 'repositoryBranch', defaultValue: 'master', description: 'repositoryBranch')
         string(name: 'repositoryCredential', defaultValue: 'gitlab', description: 'repositoryCredential')
-        string(name: 'repositoryUrl', defaultValue: 'https://git.videri.com/matheus.paschoal/canvas-information-aggregator.git', description: 'repositoryUrl')
+        string(name: 'repositoryUrl', defaultValue: '', description: 'repositoryUrl')
         string(name: 'registry', defaultValue: 'sunil5252/demoproject', description: 'registry')
         string(name: 'registryCredential', defaultValue: 'dockerhub', description: 'registryCredential')
 
-      string(name: 'manifestRepository', defaultValue: 'https://git.videri.com/kubernetes/manifests.git', description: 'manifestRepository')
+      string(name: 'manifestRepository', defaultValue: '', description: 'manifestRepository')
       string(name: ' manifestCredential', defaultValue: 'gitlab', description: ' manifestCredential')
 
 
