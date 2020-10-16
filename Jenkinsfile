@@ -15,7 +15,7 @@ pipeline {
 
 
 }
-https://@git.videri.com:vle/trigger-service.git
+
   stages {
     stage('Clone Repository') {
       steps {
